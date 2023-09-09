@@ -1,0 +1,140 @@
+@font-face { font-family: "FBR Font"; src: url("full_blue_font-webfont.woff"); }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+nav {
+    background-color: #1D3C6D;
+    border-bottom: 2px solid #00aaff;
+}
+
+footer {
+    background-color: #1D3C6D;
+    color: white;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.nav-link {
+    color: #00aaff;
+    font-family: FBR Font;
+}
+
+.main-page-title {
+    color: #00aaff;
+    //font-size: 9rem;
+}
+
+/*
+@media (max-width: 1199px) {
+    .main-page-title {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-page-title {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-page-title {
+        font-size: 4.6rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-page-title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 463px) {
+    .main-page-title {
+        font-size: 3rem;
+    }
+}
+*/
+.main-page-subtitle {
+    color: #FFF;
+    //font-size: 3rem;
+}
+
+/*
+@media (max-width: 767px) {
+    .main-page-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 463px) {
+    .main-page-subtitle {
+        font-size: 2rem;
+    }
+} */
+
+
+@media (min-width: 992px) {
+    #about-team-photo {
+        width: 50%!important;
+    }
+}
+
+h1, h2 {
+    font-family: FBR Font;
+    color: #1D3C6D;
+}
+
+h3, h4 {
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Ubuntu';
+    line-height: 2;
+}
+
+figcaption {
+    font-family: 'Ubuntu';
+}
+#hero {
+    background-color: #1d3c6d;
+}
+
+#about {
+    background: linear-gradient(0deg, #E9ECEE 0%,#D3D9DD 100%);
+    color: #1D3C6D;
+}
+
+#blog-posts {
+    background: linear-gradient(0deg, #FFFFFF 0%,#E9ECEE 100%);
+    color: #1D3C6D;
+}
+
+#hero-yt-video {
+    width: 65%;
+}
+
+#contact {
+    background-image: url("/assets/images/contact-photo.jpg");
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#contact h1 {
+    color: white;
+}
+
+#contact-form {
+    color:white;
+}
+
+.form-label, .form-text {
+    font-family: "Ubuntu";
+}

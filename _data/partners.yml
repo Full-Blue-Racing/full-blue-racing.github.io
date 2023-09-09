@@ -1,0 +1,63 @@
+- name: Nuclino
+  site: https://www.nuclino.com/
+  logo: nuclino.png
+- name: Ansys
+  site: https://www.ansys.com/
+  logo: ansys.jpg
+- name: Siemens
+  site: https://www.siemens.com/
+  logo: siemens.png
+- name: Rigor Precision Engineers
+  site: https://www.rigorprecision.com/
+  logo: rigor.png
+- name: Rank Brothers
+  site: https://www.rankbrothers.com/
+  logo: rank-brothers.png
+- name: WEC Group
+  site: http://www.wec-group.com/
+  logo: wec.png
+- name: Airtech UK
+  site: https://airtech-amg.co.uk/
+  logo: airtech.jpg
+- name: Easy Composites
+  site: https://www.easycomposites.co.uk/
+  logo: easy-composites.jpg
+- name: Zircotec
+  site: https://zircotec.com/
+  logo: zircotec.svg
+- name: Tube Bender
+  site: https://tube-bender.co.uk/
+  logo: tube-bender.gif
+- name: Leda Suspension
+  site: http://www.ledasuspension.co.uk/
+  logo: leda.jpg
+- name: Car Builder Solutions
+  site: https://www.carbuilder.com/
+  logo: carbuilder.png
+- name: Avon Tyres
+  site: https://www.avontyres.com/
+  logo: avon.jpg
+- name: Braid Wheels
+  site: https://www.braid-wheels.com/
+  logo: braid.webp
+- name: AP Racing
+  site: https://apracing.com/
+  logo: apracing.png
+- name: Silicon Hoses
+  site: https://www.siliconhoses.com/
+  logo: silicon-hoses.png
+- name: Boeing
+  site: https://www.boeing.co.uk/
+  logo: boeing.svg
+- name: Marshall
+  site: https://www.marshallgroup.co.uk/
+  logo: marshall.svg
+- name: Huawei
+  site: https://www.huawei.com/
+  logo: huawei.jpg
+- name: National Instruments
+  site: https://www.ni.com/
+  logo: National_Instruments.svg
+- name: Numerade
+  site: https://www.numerade.com/?utm_source=other&utem_medium=referral&utm_campaign=edu
+  logo: numerade.png

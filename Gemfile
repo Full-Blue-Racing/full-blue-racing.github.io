@@ -34,3 +34,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'bootstrap', '~> 5.3.1'
 gem 'dartsass-sprockets'
+gem "webrick", "~> 1.8"
