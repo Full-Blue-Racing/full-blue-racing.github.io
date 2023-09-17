@@ -1,24 +1,25 @@
 <div id="partners">
     <div class="container py-5">
-        <h1 class="text-center">Partners</h1>
+        <h1 class="text-center display-4">Partners</h1>
         <hr>
 
-        {% assign partners_per_row = 7.0 %}
         {% assign num_of_partners = site.data.partners | size %}
-        {% assign num_of_rows = num_of_partners | divided_by: partners_per_row %}
+        {% assign num_of_rows = num_of_partners | divided_by: 3.0 %}
         {% assign num_of_final_rows = num_of_rows | ceil %}
-
+        <div class="row align-items-center">
         {% for i in (1..num_of_final_rows) %}
-            <div class="row align-items-center py-4">
-                {% for partner in site.data.partners | limit: partners_per_row offset: continue %}
-                    <div class="col-md">
+            <div class="col-md-4 py-4">
+                <div class="row align-items-center">
+                {% for partner in site.data.partners | limit: 3 offset: continue %}
+                    <div class="col-4">
                         <a href="{{partner.site}}">
                             <img src="/assets/images/partners/{{partner.logo}}" class="img-fluid object-fit-fill" alt="{{ partner.name }}">
                         </a>
                     </div>
                 {% endfor %}
+                </div>
             </div>    
         {% endfor %}
-
+        </div>
     </div>
 </div>

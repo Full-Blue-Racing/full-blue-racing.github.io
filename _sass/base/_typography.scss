@@ -1,0 +1,22 @@
+@font-face { font-family: "FBR Font"; src: url("full_blue_font-webfont.woff"); }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+h1, h2 {
+    font-family: FBR Font;
+    color: #1D3C6D;
+}
+
+h3, h4 {
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p, li {
+    font-family: 'Ubuntu';
+    line-height: 2;
+}
+
+#cars button {
+    font-family: 'Ubuntu';
+}

@@ -1,0 +1,29 @@
+#cars {
+    background: linear-gradient(0deg, #FFFFFF 0%,#D3D9DD 100%);
+    color: #1D3C6D;
+}
+
+#cars-hero {
+    background-image: url("/assets/images/cars-hero.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.latest-car-title {
+    font-size: 9rem;
+}
+
+#cars-hero h1{
+    color: white;
+}
+
+.latest_car {
+    background-color: #1D3C6D;
+    color: white;
+}
+
+.latest_car h1, .latest_car h2 {
+    color: #00aaff;
+}

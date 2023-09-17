@@ -1,10 +1,10 @@
 - name: Our Team
-  link: /team.html
+  link: /team/
 - name: Our Cars
-  link: /cars.html
+  link: /cars/
 - name: Partners
-  link: /partners.html
+  link: /partners/
 - name: Contact
-  link: /partners.html
+  link: /#contact
 - name: Donate
-  link: /partners.html
+  link: https://www.philanthropy.cam.ac.uk/give-to-cambridge/full-blue-racing/
