@@ -1,18 +1,25 @@
 <footer>
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-        <div class="col">
-            <a href="http://www.eng.cam.ac.uk/"><img src="/assets/images/CUED Logo White.svg" alt="University of Cambridge Department of Engineering" height="48"></a>
+        <div class="col-4 col-sm">
+            <a href="http://www.eng.cam.ac.uk/">
+                <img src="/assets/images/CUED Logo White.svg" alt="University of Cambridge Department of Engineering" height="48" class="d-none d-sm-inline">
+                <img src="/assets/images/CUED Logo White.svg" alt="University of Cambridge Department of Engineering" height="32" class="d-inline d-sm-none">
+            </a>
         </div>
 
         <div class="d-none d-lg-block col">
             <p class="mb-0 text-center">© Full Blue Racing 2023.</p>
         </div>
 
-        <ul class="col nav justify-content-end list-unstyled d-flex">
+        <ul class="col-8 col-sm nav justify-content-end list-unstyled d-flex">
             {% for item in site.data.socials %}
                 <li class="ms-3">
                     <a class="text-body-secondary" href="{{ item.link }}">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-{{ item.name }}" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="d-none d-sm-inline bi bi-{{ item.name }}" viewBox="0 0 16 16">
+                            <path d="{{ item.path }}"/>
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="d-sm-none bi bi-{{ item.name }}" viewBox="0 0 16 16">
                             <path d="{{ item.path }}"/>
                         </svg>
                     </a>
