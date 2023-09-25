@@ -82,9 +82,14 @@ figcaption {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 #contact h1 {
     color: white;
+}
+
+.contact-address p {
+    color: white;
+    font-size: 18px;
+    line-height: normal;
 }

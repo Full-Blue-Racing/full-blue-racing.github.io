@@ -90,27 +90,68 @@
 
         {% include partners.html %}
 
-        <section id="contact">
-            <div class="container d-flex flex-column vh-100 justify-content-center">
-                <h1 class="text-center py-5 display-3">Contact</h1>
+        <section id="contact" class="pb-5">
+            <div class="container py-5 px-xl-5">
+                <h1 class="text-center pb-5 display-3">Contact</h1>
 
-                <div id="google-maps" class="mx-auto ratio ratio-21x9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.7491860102227!2d0.1203534362873658!3d52.197990248276184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774ed42712a9%3A0x67f4678955a5ba18!2sDepartment%20of%20Engineering!5e0!3m2!1sen!2suk!4v1694263230022!5m2!1sen!2suk" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="d-block d-lg-none">
+                    <div class="contact-address">
+                        <h5 style="color: white;">Want to join us? Have a proposal for us? Simply want to send us your support? Please send us an email!</h5>
+    
+                        <div class="row">
+                            <div class="d-none d-sm-block col-sm-5">
+                                <img src="/assets/images/FS Logo Negative Print.png" class="img-fluid" alt="Formula Student">
+                            </div>
+                            
+                            <div class="col-sm-7 my-2">
+                                <div class="text-center text-sm-end">
+                                    <h2 style="color: #00aaff">Full Blue Racing</h1>
+                                    <p class="mb-2">Department of Engineering</p>
+                                    <p class="mb-2">Trumpington Street</p>
+                                    <P class="mb-2">Cambridge, CB2 1PZ</P>
+                                    <p class="mb-2">United Kingdom</p>
+                                    <p class="mb-2" ><a href="mailto:getmore@fullblueracing.co.uk" style="color: #0af;">getmore@fullblueracing.co.uk</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="google-maps" class="mx-auto ratio ratio-21x9 pb-5 mt-sm-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7763.200586729014!2d0.11756874498646007!3d52.202414714643574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774ed42712a9%3A0x67f4678955a5ba18!2sDepartment%20of%20Engineering!5e0!3m2!1sen!2suk!4v1695159400619!5m2!1sen!2suk" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-
-                <div class="row">
+                
+                <div class="row d-none d-lg-flex pt-0 px-2 pb-5">
                     <div class="col-md">
-
+                        <div id="google-maps" class="mx-auto ratio ratio-4x3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7763.200586729014!2d0.11756874498646007!3d52.202414714643574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774ed42712a9%3A0x67f4678955a5ba18!2sDepartment%20of%20Engineering!5e0!3m2!1sen!2suk!4v1695159400619!5m2!1sen!2suk" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
 
-                    <div class="col-md">
+                    <div class="col-md contact-address">
+                        <h5 style="color: white;">Want to join us? Have a proposal for us? Simply want to send us your support? Please send us an email!</h5>
 
+                        <h2 style="color: #00aaff" class="text-end">Full Blue Racing</h1>
+                        <div class="row">
+                            <div class="col-5 col-xxl-4">
+                                <img src="/assets/images/FS Logo Negative Print.png" class="img-fluid" alt="Formula Student">
+                            </div>
+                            
+                            <div class="col-7 col-xxl-8">
+                                <div class="text-end">
+                                    <p class="mb-2">Department of Engineering</p>
+                                    <p class="mb-2">Trumpington Street</p>
+                                    <P class="mb-2">Cambridge, CB2 1PZ</P>
+                                    <p class="mb-2">United Kingdom</p>
+                                    <p class="mb-2" ><a href="mailto:getmore@fullblueracing.co.uk" style="color: #0af;">getmore@fullblueracing.co.uk</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </section>
-        
+
         {% include footer.html %}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
