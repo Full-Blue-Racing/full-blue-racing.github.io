@@ -19,11 +19,10 @@
     color: white;
 }
 
-.latest_car {
-    background-color: #1D3C6D;
-    color: white;
+#cars h1, #cars h3, #cars p, #cars th {
+    color: #1D3C6D;
 }
 
-.latest_car h1, .latest_car h2 {
-    color: #00aaff;
+#cars a, #cars button {
+    color: #0af;
 }

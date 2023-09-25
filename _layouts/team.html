@@ -22,11 +22,11 @@
                     <h1 class="display-5 text-center">{{ category.first }}</h1>
                     <div class="row">
                         {% for member in category[1] %}
-                            <div class="col-6 col-lg-3 py-2">
+                            <div class="col-6 col-md-3 py-2">
                                 <img src="/assets/images/team/duncan.jpg" class="ratio ratio-1x1 img-fluid" alt="Duncan Greenshields">
 
                                 <h2 class="text-center mb-0 pt-2">{{ member.name }}</h2>
-                                <p class="text-center">{{ member.role }}</p>
+                                <p class="text-center" style="line-height: normal;">{{ member.role }}</p>
                             </div>
                         {% endfor %}
                     </div>

@@ -17,78 +17,82 @@
 
         <section id="cars">
             <div class="container">
-                <div class="py-5">
+                <div class="row px-4 px-sm-0 py-5">
                     {% assign cars = site.cars | reverse %}
                     {% for car in cars %}
-                        <div class="card mb-5">
-                            <div class="row g-0">
-                                <div class="col-md-3">
-                                    <img src="/assets/images/cars/{{ car.name | downcase }}.jpg" class="img-fluid rounded-start object-fit-cover h-100" alt="{{ car.name }}">
-                                </div>
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="card mb-5 px-0">
+                                <div class="row g-0">
+                                    <div class="col-lg-3">
+                                        <img src="/assets/images/cars/{{ car.name | downcase }}.jpg" class="d-none d-lg-inline img-fluid rounded-start object-fit-cover h-100" alt="{{ car.name }}">
+                                        <img src="/assets/images/cars/{{ car.name | downcase }}.jpg" class="d-inline d-lg-none img-fluid rounded-top object-fit-cover h-100" alt="{{ car.name }}">
+                                    </div>
 
-                                <div class="col-md-9">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <h1 class="card-title display-4 mb-0">{{ car.name }}</h1>
-                                                <p class="card-text mb-0"><a href="/">Gallery</a></p>
-                                            </div>
-
-                                            {% for comp in car.competitions %}
-                                                <div class="col-md-3">
-                                                    <h3>{{ comp.first }}</h3>
-                                                    <p class="card-text fw-bold mb-0">Overall: {{comp[1].Overall}}</p>
-                                                    <button type="button" class="btn btn-link px-0" data-bs-toggle="modal" data-bs-target="#{{car.name}}-{{comp.first}}-results">Full Results</button>
-                                                    <hr class="my-1">
-                                                    <p class="card-text mb-1"><a href="/">Competition Report</a></p>
+                                    <div class="col-lg-9">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <h1 class="card-title display-4 mb-0">{{ car.name }}</h1>
+                                                    <p class="card-text mb-0"><a href="/">Gallery</a></p>
                                                 </div>
 
-                                                <div class="modal fade" id="{{car.name}}-{{comp.first}}-results" tabindex="-1" aria-labelledby="{{car.name}}-{{comp.first}}-results-label" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h1 class="modal-title fs-5" id="{{car.name}}-{{comp.first}}-results-label">{{ car.name }} - {{comp.first}} Results</h1>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                            </div>
+                                                {% for comp in car.competitions %}
+                                                    <div class="col-lg-3">
+                                                        <hr class="d-block d-lg-none mt-3 mb-1">
+                                                        <h3>{{ comp.first }}</h3>
+                                                        <p class="card-text fw-bold mb-0">Overall: {{comp[1].Overall}}</p>
+                                                        <button type="button" class="btn btn-link px-0" data-bs-toggle="modal" data-bs-target="#{{car.name}}-{{comp.first}}-results">Results</button>
+                                                        <hr class="d-none d-lg-block my-1">
+                                                        <p class="card-text mb-1"><a href="/">Competition Report</a></p>
+                                                    </div>
 
-                                                            <div class="modal-body">
-                                                                <table class="table">
-                                                                    <thead>
-                                                                        <tr>
-                                                                            {% for category in comp[1].results %}
-                                                                                <th>{{ category.first }}</th>
-                                                                            {% endfor %}
-                                                                        </tr>
-                                                                    </thead>
+                                                    <div class="modal fade" id="{{car.name}}-{{comp.first}}-results" tabindex="-1" aria-labelledby="{{car.name}}-{{comp.first}}-results-label" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="{{car.name}}-{{comp.first}}-results-label">{{ car.name }} - {{comp.first}} Results</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
 
-                                                                    <tbody>
-                                                                        {% assign max_event_count = 0 %}
-
-                                                                        {% for category in comp[1].results %}
-                                                                            {% if category[1].size > max_event_count %}
-                                                                                {% assign max_event_count = category[1].size %}
-                                                                            {% endif %}
-                                                                        {% endfor %}
-
-                                                                        {% assign row_count = max_event_count | minus: 1 %}
-                                                                        {% for i in (0..row_count) %}
+                                                                <div class="modal-body">
+                                                                    <table class="table">
+                                                                        <thead>
                                                                             <tr>
                                                                                 {% for category in comp[1].results %}
-                                                                                    <td>{{ category[1][i] }}</td>
+                                                                                    <th>{{ category.first }}</th>
                                                                                 {% endfor %}
                                                                             </tr>
-                                                                        {% endfor %}
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
+                                                                        </thead>
 
-                                                            <div class="modal-footer">
-                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                        <tbody>
+                                                                            {% assign max_event_count = 0 %}
+
+                                                                            {% for category in comp[1].results %}
+                                                                                {% if category[1].size > max_event_count %}
+                                                                                    {% assign max_event_count = category[1].size %}
+                                                                                {% endif %}
+                                                                            {% endfor %}
+
+                                                                            {% assign row_count = max_event_count | minus: 1 %}
+                                                                            {% for i in (0..row_count) %}
+                                                                                <tr>
+                                                                                    {% for category in comp[1].results %}
+                                                                                        <td>{{ category[1][i] }}</td>
+                                                                                    {% endfor %}
+                                                                                </tr>
+                                                                            {% endfor %}
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            {% endfor %}
+                                                {% endfor %}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
