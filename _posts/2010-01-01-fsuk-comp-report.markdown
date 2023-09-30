@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Formula Student UK 2010 - Competition Report"
+tags: comp-report FBR10 FSUK
+---
+FSUK is the first competition in FBR‘s calendar. Never failing to deliver a thrilling experience, this year was no exception. After a week where the wishbones were accidentally run over by the manufacturer‘s lorry and neither the rockers nor a set of suspension bearings arrived, the team started on the back foot. With strong winds threatening to buckle the gazebo as the turned into dusk could the team really re-design and build the car in three days? As promised, the scene was set for an enthralling weekend! 
+ 
+Racing to the pits as soon as they opened at 7am, the team began work on re-engineering the wishbones so that a novel system could be manufactured and assembled within the Silverstone garage. Pumped with enthusiasm and motivation, for the next two nights, the team stayed in the garage until the 11pm curfew determined to beat the three day deadline. During that time, although most of the action was in the pits, the business team had some fun of their own. In between the build, they suited up and talked business. Presenting to a panel of judges, the team pitched their business plans and strategies for an economically viable production and marketing of the car. This year FBR worked very closely with the Judge Business School and the MET Department to ensure outlined proposals were tangible. The credible pitch was professionally delivered and well received by judges considering the lack of complete car.  
+
+On the last day of the competition, the campsite woke to empty FBR tents as all team members were early in the pits once again. The car had come a long way but, did the team still have enough time to complete the build? Short answer, yes! The car successfully scrutineered on Sunday afternoon and although it wasn‘t completely safe to compete dynamically, the team were jubilant! This was a tremendous achievement was thanks to the incredible teamwork exhibited by FBR. Full Blue Racing was a formidable force at Silverstone this year – unofficially we were dubbed: ―The team that built a car in 3 days. A first in FSUK history. 
