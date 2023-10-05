@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19mm"
+   height="8mm"
+   viewBox="0 0 19 8"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="TTP white background.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     objecttolerance="16.7"
+     inkscape:zoom="24.886869"
+     inkscape:cx="27.18301"
+     inkscape:cy="25.716373"
+     inkscape:window-width="3840"
+     inkscape:window-height="2105"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1008"
+       units="mm"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1939"
+       width="18.999998"
+       height="8"
+       x="0"
+       y="-1.110223e-16" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 3.9999999,3 V 5.9999998 H 5 v 1.0000001 h 0.9999998 v -3 H 5 V 3 H 3.9999999"
+       id="path2883" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 9.9999999,3.0000001 V 6 H 11 v 1 h 1 V 4 H 11 V 3.0000001 H 9.9999999"
+       id="path2883-8" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 15,5 v 0.9999998 h 1 v 1.0000001 h 2 V 5 h -3"
+       id="path3152" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1232"
+       width="5"
+       height="1"
+       x="1"
+       y="1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1234"
+       width="5"
+       height="1"
+       x="7"
+       y="1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1236"
+       width="5"
+       height="1"
+       x="13"
+       y="1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1248"
+       width="1"
+       height="3"
+       x="13"
+       y="3" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1250"
+       width="2"
+       height="1"
+       x="15"
+       y="3" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.9999999,7 V 4 H 2 V 2.9999999 H 2.9999999 V 6 H 2 V 7 H 0.9999999"
+       id="path1656" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 6.9999999,7 V 4 H 8 V 2.9999999 H 8.9999999 V 6 H 8 V 7 H 6.9999999"
+       id="path1656-0" />
+  </g>
+</svg>

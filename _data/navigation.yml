@@ -2,12 +2,8 @@
   link: /team
 - name: Our Cars
   link: /cars
-- name: Blog
-  link: /blog
 - name: Partners
-  link: /partners
-- name: Alumni
-  link: /alumni
+  link: /#partners
 - name: Contact
   link: /#contact
 - name: Donate
