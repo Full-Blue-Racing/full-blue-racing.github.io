@@ -1,29 +1,25 @@
 Senior Leadership:
-  - name: Duncan Greenshields
+  - name: Kishan Zala
     role: Team Leader
-  - name: Matthew Neilan-Bell
+  - name: Ryan Smith
     role: Deputy Team Leader
-  - name: Adam Pullin
-    role: Technical Director
   - name: Tasin Sayed
+    role: Technical Director
+  - name: Harry Chacksfield
     role: Deputy Technical Director
 
 Core Team:
   - name: Iain Lam
-    role: Co-Head of Aerodynamics
+    role: Co-Head of Aerodynamics and Co-Head of Manufacturing
   - name: James Petty
     role: Co-Head of Aerodynamics
-  - name: Harry Chacksfield
+  - name: Daniel Logan
     role: Head of Powertrain
   - name: Nirmay Jadhav
-    role: Head of Vehicle Dynamics
-  - name: Andrew Choi
-    role: Head of Chassis
-  - name: Florian Tiefenbeck
-    role: Head of Electronics
-  - name: Kishan Zala
-    role: Head of EV Powertrain
+    role: Head of Vehicle Dynamics and Co-Head of Manufacturing
   - name: Oliver Gaskell
-    role: Head of EV Electronics
-  - name: Ryan Smith
+    role: Head of Electronics
+  - name: Francis Kwstantinos
+    role: Head of Business Event
+  - name: Duncan Greenshields
     role: Head of PR/Sponsorship
