@@ -26,10 +26,6 @@ general:
     site: http://www.ledasuspension.co.uk/
     logo: leda.jpg
 
-  - name: Lounge
-    site: https://lounge.live/
-    logo: lounge.png
-
   - name: Nuclino
     site: https://www.nuclino.com/
     logo: nuclino.png
@@ -39,9 +35,6 @@ general:
   - name: Rigor Precision Engineers
     site: https://www.rigorprecision.com/
     logo: rigor.png
-  - name: Siemens
-    site: https://www.siemens.com/
-    logo: siemens.png
   - name: Silicon Hoses
     site: https://www.siliconhoses.com/
     logo: silicon-hoses.png
@@ -51,6 +44,3 @@ general:
   - name: WEC Group
     site: http://www.wec-group.com/
     logo: wec.png
-  - name: Zircotec
-    site: https://zircotec.com/
-    logo: zircotec.svg
