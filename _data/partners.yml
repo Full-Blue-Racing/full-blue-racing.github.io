@@ -5,6 +5,9 @@ general:
   - name: Ansys
     site: https://www.ansys.com/
     logo: ansys.jpg
+  - name: ATI
+    site: https://www.accuratetechnologies.com/
+    logo: ati.png
   - name: Avon Tyres
     site: https://www.avontyres.com/
     logo: avon.jpg
