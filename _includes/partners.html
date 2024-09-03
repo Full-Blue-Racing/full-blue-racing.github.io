@@ -4,54 +4,24 @@
         <hr>
 
         <div class="row">
-            <div class="col-md-5 py-4 pe-4">    
-                <!--
-                <div class="row align-items-center">
-                    <h1>Title Sponsor</h1>
-                    <div class="col px-5 py-3">
-                        {% assign title_sponsor = site.data.partners.title-sponsor[0] %}
-                        <a href="{{ title_sponsor.site }}">
-                            <img src="/assets/images/partners/{{title_sponsor.logo}}" class="w-100" alt="{{ title_sponsor.name }}">
-                        </a>
-                    </div>
-                </div>
-                -->
-
-                <div class="row align-items-center">
-                    <h1>Student-led Projects and Industry Partnership (SPIP)</h1>
-                    {% for spip_sponsor in site.data.partners.spip %}
-                        <div class="col-4 px-3 py-3">
-                            <a href="{{ spip_sponsor.site }}">
-                                <img src="/assets/images/partners/{{spip_sponsor.logo}}" class="img-fluid object-fit-fill" alt="{{ spip_sponsor.name }}">
+            {% assign num_of_partners = site.data.partners.general | size %}
+            {% assign num_of_rows = num_of_partners | divided_by: 3.0 %}
+            {% assign num_of_final_rows = num_of_rows | ceil %}
+            <div class="row align-items-center">
+            {% for i in (1..num_of_final_rows) %}
+                <div class="col-md-6 py-4">
+                    <div class="row align-items-center">
+                    {% for partner in site.data.partners.general | limit: 3 offset: continue %}
+                        <div class="col-4">
+                            <a href="{{partner.site}}">
+                                <img src="/assets/images/partners/{{partner.logo}}" class="img-fluid object-fit-fill" alt="{{ partner.name }}">
                             </a>
                         </div>
                     {% endfor %}
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-7 py-4 ps-4">
-                <h1>Partners</h1>
-                {% assign num_of_partners = site.data.partners.general | size %}
-                {% assign num_of_rows = num_of_partners | divided_by: 3.0 %}
-                {% assign num_of_final_rows = num_of_rows | ceil %}
-                <div class="row align-items-center">
-                {% for i in (1..num_of_final_rows) %}
-                    <div class="col-md-6 py-4">
-                        <div class="row align-items-center">
-                        {% for partner in site.data.partners.general | limit: 3 offset: continue %}
-                            <div class="col-4">
-                                <a href="{{partner.site}}">
-                                    <img src="/assets/images/partners/{{partner.logo}}" class="img-fluid object-fit-fill" alt="{{ partner.name }}">
-                                </a>
-                            </div>
-                        {% endfor %}
-                        </div>
-                    </div>    
-                {% endfor %}
-                </div>
+            {% endfor %}
             </div>
         </div>
-
-        
     </div>
 </div>

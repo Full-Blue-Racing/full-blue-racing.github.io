@@ -1,25 +1,3 @@
-title-sponsor:
-  - name: TTP
-    site: https://www.ttp.com/
-    logo: ttp.svg
-
-spip:
-  - name: Boeing
-    site: https://www.boeing.co.uk/
-    logo: boeing.svg
-  - name: Cambridge University Engineers Association
-    site: https://www.cuea.uk/
-    logo: cuea.png
-  - name: Huawei
-    site: https://www.huawei.com/
-    logo: huawei.jpg
-  - name: Marshall
-    site: https://www.marshallgroup.co.uk/
-    logo: marshall.svg
-  - name: National Instruments
-    site: https://www.ni.com/
-    logo: National_Instruments.svg
-
 general:
   - name: AP Racing
     site: https://apracing.com/
