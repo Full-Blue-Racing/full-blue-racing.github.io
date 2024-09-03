@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .16); // darken the background slightly
 }
 
 #team-hero h1{
