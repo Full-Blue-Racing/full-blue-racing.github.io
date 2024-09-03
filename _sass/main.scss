@@ -69,16 +69,38 @@ figcaption {
 
 #index-hero {
     // background-image: url("/assets/images/main-hero-image.jpg");
-    background-image: url("/assets/images/spain-accel-lights.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-#main-page-title-container {
-    background-color: rgba(0,0,0,0.4);
-    box-shadow: 0 0 30px 30px rgba(0,0,0,0.4);
-    border-radius: 25px;
+@media (min-aspect-ratio: 1/1) {
+    #index-hero {
+        background-image: url("/assets/images/spain-accel-lights.jpg");
+    }
+
+    #main-page-title-container {
+        background-color: rgba(0,0,0,0.4);
+        box-shadow: 0 0 30px 30px rgba(0,0,0,0.4);
+        border-radius: 25px;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #index-hero {
+        background-image: url("/assets/images/autocross-mob-bg.jpg");
+    }
+
+    #main-page-title-container {
+        background-color: rgba(0,0,0,0.2);
+        box-shadow: 0 0 30px 30px rgba(0,0,0,0.2);
+        border-radius: 25px;
+    }
+}
+
+
+#main-page-title-container>h1 {
+    padding-top: 0 !important;
 }
 
 #hero-yt-video {
