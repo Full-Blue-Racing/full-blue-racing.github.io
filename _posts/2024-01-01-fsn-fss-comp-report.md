@@ -4,7 +4,7 @@ title: "Full Blue Racing - 2024 Competition Report"
 tags: comp-report FBR24 FSN FSS
 ---
 
-Summer of 2024 was the biggest milestone in the history of Full Blue Racing. Our car successfully passed all stages of scrutineering at both FS Netherlands and FS Spain, and finally had the opportunity to show its true potential in all four of the dynamic events - a feat achieved by few teams  The FBR24 was a huge step forward from its predecessor, both in performance and reliability. We iterated on the simple and light design philosophy of the FBR23, and rigorous test days exposed critical issues to fix while also providing drivers with vital practice to get to grips with the unique experience of driving a Formula Student car.
+The summer of 2024 was the biggest milestone in the history of Full Blue Racing. Our car successfully passed all stages of scrutineering at both FS Netherlands and FS Spain, and finally had the opportunity to show its true potential in all four of the dynamic events - a feat achieved by few teams. The FBR24 was a huge step forward from its predecessor, both in performance and reliability. We iterated on the simple and light design philosophy of the FBR23, and rigorous test days exposed critical issues to fix while also providing drivers with vital practice to get to grips with the unique experience of driving a Formula Student car.
 
 ## Netherlands
 
