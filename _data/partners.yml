@@ -47,3 +47,6 @@ general:
   - name: WEC Group
     site: http://www.wec-group.com/
     logo: wec.png
+  - name: Eurocircuits
+    site: https://www.eurocircuits.com/
+    logo: eurocircuits.svg
