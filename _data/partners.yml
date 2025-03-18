@@ -1,10 +1,10 @@
 general:
-  - name: AP Racing
-    site: https://apracing.com/
-    logo: apracing.png
   - name: Ansys
     site: https://www.ansys.com/
     logo: ansys.jpg
+  - name: AP Racing
+    site: https://apracing.com/
+    logo: apracing.png
   - name: ATI
     site: https://www.accuratetechnologies.com/
     logo: ati.png
@@ -17,18 +17,18 @@ general:
   - name: Car Builder Solutions
     site: https://www.carbuilder.com/
     logo: carbuilder.png
-
-  - name: EPLAN
-    site: https://www.eplan.co.uk/
-    logo: eplan.png
-
   - name: Easy Composites
     site: https://www.easycomposites.co.uk/
     logo: easy-composites.jpg
+  - name: EPLAN
+    site: https://www.eplan.co.uk/
+    logo: eplan.png
+  - name: Eurocircuits
+    site: https://www.eurocircuits.com/
+    logo: eurocircuits.svg
   - name: Leda Suspension
     site: http://www.ledasuspension.co.uk/
     logo: leda.jpg
-
   - name: Nuclino
     site: https://www.nuclino.com/
     logo: nuclino.png
@@ -38,6 +38,12 @@ general:
   - name: Rigor Precision Engineers
     site: https://www.rigorprecision.com/
     logo: rigor.png
+  - name: RS Components
+    site: https://uk.rs-online.com/web/
+    logo: rs.jpg
+  - name: SG Technical Systems
+    site: https://www.sgtechsys.com/
+    logo: sg-tech.png
   - name: Silicon Hoses
     site: https://www.siliconhoses.com/
     logo: silicon-hoses.png
@@ -47,6 +53,4 @@ general:
   - name: WEC Group
     site: http://www.wec-group.com/
     logo: wec.png
-  - name: Eurocircuits
-    site: https://www.eurocircuits.com/
-    logo: eurocircuits.svg
+
