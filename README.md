@@ -13,3 +13,5 @@ Run the site:
 ```bash
 $ bundle exec jekyll serve
 ```
+
+Note that the dependencies are not compatible with Ruby versions `>=3.3`. As such, it may be necessary to use `rbenv` or a similar tool to downgrade ruby.
