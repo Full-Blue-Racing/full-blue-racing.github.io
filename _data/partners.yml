@@ -20,12 +20,12 @@ general:
   - name: Easy Composites
     site: https://www.easycomposites.co.uk/
     logo: easy-composites.jpg
-  - name: EPLAN
-    site: https://www.eplan.co.uk/
-    logo: eplan.png
   - name: Eurocircuits
     site: https://www.eurocircuits.com/
     logo: eurocircuits.svg
+  - name: FutureMotiv
+    site: https://rle-futuremotiv.com/
+    logo: futuremotiv.png
   - name: Leda Suspension
     site: http://www.ledasuspension.co.uk/
     logo: leda.jpg
@@ -35,6 +35,9 @@ general:
   - name: Rank Brothers
     site: https://www.rankbrothers.com/
     logo: rank-brothers.png
+  - name: RapidHarness
+    site: https://rapidharness.com/
+    logo: rapidharness.png
   - name: Rigor Precision Engineers
     site: https://www.rigorprecision.com/
     logo: rigor.png
