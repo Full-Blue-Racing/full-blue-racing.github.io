@@ -15,3 +15,12 @@ $ bundle exec jekyll serve
 ```
 
 Note that the dependencies are not compatible with Ruby versions `>=3.3`. As such, it may be necessary to use `rbenv` or a similar tool to downgrade ruby.
+
+## TODO
+
+- [ ] Change root header image, mobile image
+- [ ] Change team photo, mobile and desktop
+- [ ] More sponsors to add. Pester Dan
+- [ ] Copyright
+- [ ] Change team members
+- [ ] Add FBR25 car team photo from event
