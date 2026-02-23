@@ -56,4 +56,7 @@ general:
   - name: WEC Group
     site: http://www.wec-group.com/
     logo: wec.png
+  - name: Metalex
+    site: https://metalex.co.uk/
+    logo: metalex.png
 
