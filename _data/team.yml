@@ -1,27 +1,37 @@
 Senior Leadership:
-  - name: Kishan Zala
-    role: Team Leader
-  - name: Ryan Smith
-    role: Deputy Team Leader
-  - name: Tasin Sayed
+  - name: Ryan Teh
+    role: Team Principal
+  - name: Scott Granger
     role: Technical Director
-  - name: Harry Chacksfield
+  - name: Leo James
+    role: Deputy Team Principal
+  - name: Will Boxall
     role: Deputy Technical Director
 
 Core Team:
-  - name: Iain Lam
-    role: Co-Head of Aerodynamics and Co-Head of Manufacturing
-  - name: James Petty
+  - name: Ben Smith
     role: Co-Head of Aerodynamics
-  - name: Daniel Logan
-    role: Head of Powertrain
-  - name: Nirmay Jadhav
-    role: Head of Vehicle Dynamics and Co-Head of Manufacturing
-  - name: Oliver Gaskell
+  - name: Ozzy Hayler-Goodall
+    role: Co-Head of Aerodynamics
+  - name: Youyou Yu
     role: Head of Electronics
-  - name: Franci Tafilaj
-    role: Head of Business Event
-  - name: Duncan Greenshields
-    role: Head of Sponsorship
-  - name: Haruna Katsumi
-    role: Head of Social Media and PR
+  - name: Samuel Liu
+    role: Deputy Head of Electronics
+  - name: James Williams
+    role: Head of Powertrain
+  - name: James Walsh
+    role: Deputy Head of Powertrain
+  - name: Amy Rushowski-White
+    role: Head of Vehicle Dynamics
+  - name: Tyrese Marfo Senyah
+    role: Deputy Head of Vehicle Dynamics
+  - name: Eloise Furlonger
+    role: Head of Operations
+  - name: Rhea Sinha
+    role: Deputy Head of Operations
+  - name: Thanh Tin Nguyen
+    role: Head of Composites
+  - name: Yoonjae Hwang
+    role: Head of Simulations
+  - name: Ryan Smith
+    role: Head of EV
