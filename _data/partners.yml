@@ -8,6 +8,12 @@ general:
   - name: ATI
     site: https://www.accuratetechnologies.com/
     logo: ati.png
+  - name: Aluminium Surface Engineering
+    site: https://ase4anodising.co.uk/
+    logo: ase.png
+  - name: Barrett Steel Engineering 
+    site: https://www.barrettsteel.com/
+    logo: barrettsteel.svg
   - name: Avon Tyres
     site: https://www.avontyres.com/
     logo: avon.jpg
@@ -17,24 +23,48 @@ general:
   - name: Car Builder Solutions
     site: https://www.carbuilder.com/
     logo: carbuilder.png
+  - name: Carbon Technology Ltd 
+    site: https://www.carbon-technology.com/
+    logo: ctl.png
+  - name: Drive System Design
+    site: https://www.drivesystemdesign.com/
+    logo: dsd.png
   - name: Easy Composites
     site: https://www.easycomposites.co.uk/
     logo: easy-composites.jpg
-  - name: EPLAN
-    site: https://www.eplan.co.uk/
-    logo: eplan.png
   - name: Eurocircuits
     site: https://www.eurocircuits.com/
     logo: eurocircuits.svg
+  - name: Filamentive
+    site: https://www.filamentive.com/
+    logo: filamentive.png
+  - name: FutureMotiv
+    site: https://rle-futuremotiv.com/
+    logo: futuremotiv.png
+  - name: GWR Fasteners 
+    site: https://www.gwr-fasteners.co.uk/
+    logo: gwr.png
+  - name: Inetic 
+    site: https://inetic.co.uk/
+    logo: inetic.svg
+  - name: Kitronic 
+    site: https://kitronik.co.uk/
+    logo: kitronic.webp
   - name: Leda Suspension
     site: http://www.ledasuspension.co.uk/
     logo: leda.jpg
+  - name: Metalex 
+    site: https://metalex.co.uk/
+    logo: metalex.png
   - name: Nuclino
     site: https://www.nuclino.com/
     logo: nuclino.png
   - name: Rank Brothers
     site: https://www.rankbrothers.com/
     logo: rank-brothers.png
+  - name: RapidHarness 
+    site: https://rapidharness.com/
+    logo: rapidharness.png
   - name: Rigor Precision Engineers
     site: https://www.rigorprecision.com/
     logo: rigor.png
@@ -47,10 +77,12 @@ general:
   - name: Silicon Hoses
     site: https://www.siliconhoses.com/
     logo: silicon-hoses.png
-  - name: Tube Bender
-    site: https://tube-bender.co.uk/
-    logo: tube-bender.gif
-  - name: WEC Group
-    site: http://www.wec-group.com/
-    logo: wec.png
-
+  - name: Spray.Bike 
+    site: https://spray.bike/
+    logo: spraybike.webp
+  - name: Tidyco
+    site: https://www.tidyco.co.uk/
+    logo: tidyco.svg
+  - name: TRS Motorsport
+    site: https://www.trs-motorsport.com/
+    logo: trs-motorsport.webp
